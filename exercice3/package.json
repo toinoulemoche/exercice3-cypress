@@ -6,7 +6,8 @@
     "build": "run-p type-check build-only",
     "preview": "vite preview --port 4173",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit"
+    "type-check": "vue-tsc --noEmit",
+    "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080"
   },
   "dependencies": {
     "vue": "^3.2.36"
